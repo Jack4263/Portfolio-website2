@@ -1,16 +1,16 @@
 function Navbar() {
   return (
-    <nav style={{ padding: "3rem", borderBottom: "1px #ddd" }}>
-      <a href="#" style={{ marginRight: "1rem" }}>
-        Home
-      </a>
-      <a href="#" style={{ marginRight: "1rem" }}>
-        Projects
-      </a>
-      <a href="#" style={{ marginRight: "1rem" }}>
-        Contact
-      </a>
+    <nav className="nav">
+      <span className="nav-logo">Jack</span>
+
+      <ul className="nav-links">
+        <li>Home</li>
+        <li>About</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
     </nav>
   );
 }
+
 export default Navbar;
